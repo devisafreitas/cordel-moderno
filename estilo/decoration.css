@@ -36,16 +36,18 @@
             margin: auto;
             text-align: center;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 16px;
+       
         }
         p {
             font-family: 'Sriracha', cursive;
             text-align: left;
-            font-size: 40px;
+      
         }
         section {
             padding-top: 10px;
             padding-bottom: 10vh;
+            line-height: 2em;
+            padding-left: 30px;
 
         }
         section.normal {
@@ -55,6 +57,10 @@
         section.imagem {
             background-color: rgb(129, 125, 125);
             color: white;
+        }
+        section.imagem > p {
+            width: 400px;
+            background-color: rgba(0, 0, 0, 0.438);
         }
 
         footer {
