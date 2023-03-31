@@ -1,71 +1,80 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Passion One', cursive;
+    --font3: 'Sriracha', cursive;
+}
+
 * {
     margin: 0px;
     padding: 0px;
 
 }
-    html, body {
-        min-width: 100vh;
-        background-color: darkgray
-    }
-        header {
-            background-color: black;
-            color: white;
-            height: 250px;
-            margin: auto;
-            padding-top: 10px;
-            text-align: center;
-        }
-        header > h1 {
-            padding-top: 50px;
-            text-align: center;
-            font-family: 'Passion One', cursive;
-            font-size: 127px;
-            font-variant: small-caps;
-        }
-        header > p {
-            padding-bottom: 50px;
-            text-align: center;
-        }
-        body {
-            margin: 0px;
-        }
 
-        h2 {
-            margin: auto;
-            text-align: center;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-       
-        }
-        p {
-            font-family: 'Sriracha', cursive;
-            text-align: left;
-      
-        }
-        section {
-            padding-top: 10px;
-            padding-bottom: 10vh;
-            line-height: 2em;
-            padding-left: 30px;
+html,body {
+    min-width: 100vh;
+    background-color: darkgray;
+    font-family: var(--font1);
+}
 
-        }
-        section.normal {
-            background-color: white;
-            color: black;
-        }
-        section.imagem {
-            background-color: rgb(129, 125, 125);
-            color: white;
-        }
-        section.imagem > p {
-            width: 400px;
-            background-color: rgba(0, 0, 0, 0.438);
-        }
+header {
+    background-color: black;
+    color: white;
+    height: 250px;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+}
 
-        footer {
-            background-color: black;
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
+header>h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-family: var(--font1);
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+
+header>p {
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+}
+p {
+    text-align: left;
+}
+
+section {
+    padding-top: 10px;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--font3);
+
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(129, 125, 125);
+    color: white;
+}
+
+section.imagem>p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.438);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
