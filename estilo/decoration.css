@@ -24,7 +24,7 @@ header {
     color: white;
     height: 250px;
     margin: auto;
-    padding-top: 10px;
+    padding-top: 10vh;
     text-align: center;
 }
 
@@ -49,14 +49,17 @@ p {
 }
 
 section {
-    padding-top: 10px;
+    padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--font3);
+    font-size: 2vw;
 
 }
-
+section>p {
+    padding-bottom: 2em;
+}
 section.normal {
     background-color: white;
     color: black;
@@ -68,7 +71,8 @@ section.imagem {
 }
 
 section.imagem>p {
-    width: 400px;
+    display: inline-block;
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.438);
 }
 
